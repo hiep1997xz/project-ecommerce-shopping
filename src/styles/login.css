@@ -1,0 +1,106 @@
+body{
+    background-color: #f8f9fd;
+}
+
+.login{
+    margin-top: 185px;
+    margin-left: 500px;
+}
+
+.formLogin{
+    display: flex;
+    height: 512px;
+    width: 920px;
+    background: white;
+    box-shadow: 0 10px 34px -15px rgb(0 0 0 / 24%);
+    border-radius: 10px;
+}
+
+.img{
+    height: 512px;
+    width: 460px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 10px;
+}
+
+.signIn{
+    display: flex;
+    margin-top: 48px;
+}
+
+.icon{
+    margin-left: 200px;
+}
+
+.fa-facebook, .fa-twitter{
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid rgba(0,0,0,.05);
+    font-size: 16px;
+    margin-right: 5px;
+    border-radius: 50%;
+    padding-top: 10px;
+}
+
+.fa-facebook:hover, .fa-twitter:hover {
+    background-color: #e3b04b;
+    color: white;
+}
+
+.iconFacebook{
+    color: #999 !important;
+}
+
+.textSignIn{
+    font-family: "Lato",Arial,sans-serif;
+    color: #000;
+    font-size: 28px;
+    margin-left: 48px;
+}
+
+.signin-form{
+    margin-left: 48px;
+    margin-right: 6px;
+    margin-top: 10px;
+}
+
+.remember{
+    margin-top: 20px;
+}
+
+.member{
+    margin-top: 20px;
+    color: gray;
+}
+
+.action{
+    text-decoration: none;
+    color: #e3b04b!important;
+}
+
+.forgot{
+    margin-left: 125px;
+}
+
+.forgot a {
+    text-decoration: none;
+    color: gray;
+}
+
+.textremember{
+    margin-left: 2px;
+    color: gray;
+}
+
+.btnlogin{
+    background-color: #e3b04b!important;
+    border: 1px solid #e3b04b!important;
+}
+
+.btnlogin:forcus{
+    outline: none;
+}
